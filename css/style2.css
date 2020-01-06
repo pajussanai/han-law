@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Anton|Overpass+Mono:600&display=swap');
+
 /* Main Background */
  * {
 	 box-sizing: border-box;
@@ -10,6 +10,10 @@
 	 padding: 0;
 }
 
+body {
+  margin: 0;
+}
+
 
 /* Header */
  .page-header {
@@ -17,7 +21,6 @@
 	 z-index: 2;
 	 width: 100%;
    background-color: black;
-   min-width: 100%;
 }
 
 
@@ -60,8 +63,8 @@
  body:before {
 	 content: "";
 	 position: absolute;
-	 background-color: #123453;
-	 width: 100%;
+	 background-color: black;
+	 width: 25%;
 	 overflow: hidden;
 	 top: 0;
 	 left: 0;
@@ -81,8 +84,8 @@
  .burger__button {
 	 display: block;
 	 position: relative;
-	 width: 60px;
-	 height: 60px;
+	 width: 50px;
+	 height: 50px;
 	 text-align: center;
 	 vertical-align: middle;
 	 transition: all 0.5s ease;
@@ -90,7 +93,7 @@
 	 box-shadow: 0px 0px 8px -2px #333;
 }
  .burger__button.open {
-	 border: 2px solid #fff;
+	 border: 2px solid black;
 	 box-shadow: none;
 }
  .burger__button__icon {
