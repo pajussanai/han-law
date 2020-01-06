@@ -240,19 +240,3 @@
 	 transform: translateX(0);
 	 visibility: visible;
 }
-
-
-/* professional */
-
-.col-1-1{
-  float: left;
-  width: 50%;
-}
-
-.col-1-2{
-  float: Right;
-  width: 50%;
-  padding: 5em;
-  font-size: 1.5em;
-  text-align: center;
-}
